@@ -1,0 +1,20 @@
+.hero {
+
+  &__title {
+    color: $title-color;
+    font-weight: 700;
+    text-shadow: #333 5px 5px 7px
+  }
+
+  &__subtitle {
+    color: $subtitle-color;
+    font-weight: 500;
+    text-shadow: #333 6px 5px 2px
+  }
+
+  &__text {
+    color: $text-color;
+    font-weight: 300;
+    font-size: 1.4rem;
+  }
+}

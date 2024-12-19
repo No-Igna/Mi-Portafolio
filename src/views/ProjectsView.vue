@@ -1,19 +1,21 @@
 <template>
-  <div class="preview-container">
-    <h3>Vista previa de la página externa</h3>
-    <iframe 
-      src="https://examen-quien-es-ese-pokemon.vercel.app"
-      frameborder="0" 
-      class="preview-frame"
-      width="100%" 
-      height="500px">
-    </iframe>
-  </div>
+  <Navbar/>
+  <Projects :projects="projects" />
 </template>
 
 <script>
+import Navbar from '@/components/Navbar.vue';
+import Projects from '@/components/Projects.vue';
+import { mapState } from 'vuex';
+
 export default {
   name: 'ProjectsView',
+  components:{
+    Navbar,Projects
+  },
+  computed:{
+    ...mapState(['projects'])
+  },
   data() {
     return {};
   }
@@ -21,14 +23,4 @@ export default {
 </script>
 
 <style scoped>
-.preview-container {
-  text-align: center;
-  padding: 1rem;
-}
-
-.preview-frame {
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
 </style>

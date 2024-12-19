@@ -6,7 +6,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: ()=>import('../views/HomeView.vue'),
+      component: () => import('../views/HomeView.vue'),
     },
     {
       path: '/formacion',
@@ -14,15 +14,22 @@ const router = createRouter({
       component: () => import('../views/FormacionView.vue'),
     },
     {
-      path:'/proyectos',
-      name:'proyectos',
-      component:()=> import('../views/ProjectsView.vue')
+      path: '/proyectos',
+      name: 'proyectos',
+      component: () => import('../views/ProjectsView.vue')
+    },
+    {
+      path: '/proyectos/:id',
+      name: 'Proyecto',
+      component: () => import('../views/DetailView.vue'),
+      props: true
     },
     {
       path: "/:pathMatch(.*)*",
-      name:'page not found',
-      component: () =>import('../views/PageNotFoundView.vue'),
+      name: 'page not found',
+      component: () => import('../views/PageNotFoundView.vue'),
     },
+
   ],
 })
 

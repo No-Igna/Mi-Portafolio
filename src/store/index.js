@@ -12,12 +12,34 @@ const store = createStore({
           detail: 'Aplicación web que hace uso de la PokéAPI para generar 20 Pokémon de forma aleatoria y que el usuario tenga que adivinar el nombre para mostrar al Pokémon oculto detrás de la silueta.'
         },
         {
-          id: 'Prueba-de-login',
-          title: 'Prueba de login',
-          url: 'https://desafio-firebase-ii-93527.web.app/',
-          img: '/img/Login.webp',
-          detail: 'Aplicación web que hace uso de la creación de usuarios y hosting en Firebase, solo permite el acceso al contenido de esta si el usuario realiza el inicio de sesión.'
+          id: 'Chat-de-api',
+          title: 'Chat entre usuarios traidos con API',
+          url: 'https://desafio-consumo-api-rest.vercel.app/',
+          img: '/img/Login.png',
+          detail: 'Aplicacion web que hace uso de la API Random user generator, para obtener 2 usuarios diferentes y con estos poder simular un chat entre ellos.'
         },
+        {
+          id: 'Administrador-de-citas',
+          title: 'Administrador de citas medicas',
+          url: 'https://desafio-consumo-api-rest.vercel.app/',
+          img: '/img/AdministradorDeCitas.png',
+          detail: 'Aplicacion web en la cual al llenar el formulario, se genera una carta con los datos de la cita medica, dandoles un color caracteristico dependiendo de la gravedad que presente el paciente.'
+        },
+        {
+          id: 'Animales-en-Investigacion',
+          title: 'Animales en Investigacion',
+          url: 'https://no-igna.github.io/Prueba---Programacion-avanzada-en-JavaScript/',
+          img: '/img/AnimalesEnInvestigacion.png',
+          detail: 'Aplicacion web en la cual al llenar el formulario, se genera una carta dependiento del animal seleccionado, contando con una imagen de este y su sonido caracteristico, al presionarla se mostrara nuevamente la imagen en un mayor tamaño, su edad y comentarios relevantes.'
+        },
+        {
+          id: 'SuperHero-API',
+          title: 'SuperHero API',
+          url: 'https://no-igna.github.io/Prueba-Fundamentos-de-programacion-en-JavaScript/',
+          img: '/img/SuperHeroAPI.png',
+          detail: 'Aplicacion web con la cual se realiza un llamado a la API SuperHero API y esta devuelve un personaje, para mostrar sus datos en pantalla.'
+        },
+
       ],
       educacion: [
         {

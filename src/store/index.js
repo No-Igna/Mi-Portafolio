@@ -21,7 +21,7 @@ const store = createStore({
         {
           id: 'Administrador-de-citas',
           title: 'Administrador de citas medicas',
-          url: 'https://desafio-consumo-api-rest.vercel.app/',
+          url: 'https://manejo-de-eventos-y-reutilizacion-de-componentes.vercel.app/',
           img: '/img/AdministradorDeCitas.png',
           detail: 'Aplicacion web en la cual al llenar el formulario, se genera una carta con los datos de la cita medica, dandoles un color caracteristico dependiendo de la gravedad que presente el paciente.'
         },

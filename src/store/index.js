@@ -12,6 +12,13 @@ const store = createStore({
           detail: 'Aplicación web que hace uso de la PokéAPI para generar 20 Pokémon de forma aleatoria y que el usuario tenga que adivinar el nombre para mostrar al Pokémon oculto detrás de la silueta.'
         },
         {
+          id: 'Don-run',
+          title: 'Don-run',
+          url: 'https://don-run.vercel.app/',
+          img: '/img/DonRun.png',
+          detail: 'Mini juego interactivo de la serpiente desarrollado con Vue y canvas. El jugador guía a una serpiente personalizada para recolectar estrellas sin chocar contra su cuerpo ni los bordes. Incluye control por teclado y sprites personalizados'
+        },
+        {
           id: 'Chat-de-api',
           title: 'Chat entre usuarios traidos con API',
           url: 'https://desafio-consumo-api-rest.vercel.app/',
